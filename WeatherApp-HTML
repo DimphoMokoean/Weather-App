@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currently 23 degrees in Cape Town </title>
+    <style>
+
+        .city-one{
+            text-align:center
+        }
+        .heading{
+            text-align:center
+        }
+        .city-two{
+            text-align: center;
+        }
+
+.city-three{
+    text-align: center;
+}
+.city-four{
+    text-align: center;
+}
+.city-five{
+    text-align: center;
+}
+.layout{
+    background-color: rgb(223, 249, 250);
+    background-image: url(https://images.unsplash.com/photo-1635545195955-e65d68631341?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80);
+}
+
+.details{
+    text-align: center;
+    color: forestgreen;
+}
+
+.button{
+    padding: 15px 10px 15px 10px;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    color: rgb(6, 109, 30);
+    box-shadow: 0px 5px 10px 0px;
+    transition: all 200ms ease-in-out;
+    
+}
+button:hover{
+    background: white;
+    color: rgb(239, 223, 47);
+    cursor: pointer;
+}
+
+h3:hover{
+    background: white;
+    color: rgb(249, 169, 83);
+    cursor:pointer;
+    transition: all 200ms ease-in-out;
+    padding: 15px 10px 15px 10px;
+
+
+}
+h1:hover{
+    background: white;
+    color: rgb(227, 139, 131);
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+    padding: 15px 10px 15px 10px;
+
+}
+
+    </style>
+</head>
+
+<body class="layout">
+    
+    <h1 class="heading">
+    Currently 23° inCape Town &#X26C5; <br> H: 23° L:11°
+
+    </h1>
+
+    <h3 class="city-two">
+        Wednesday &#x26c5; <br> H: 20° / L:14°
+    </h3>
+
+    <h3 class="city-three">
+        Thursday &#127774 <br> H: 23° / L:13°
+    </h3>
+<h3 class="city-four">
+    Friday &#127774 <br> H: 24° / L:14°
+</h3>
+
+<h3 class="city-five">
+    Saturday &#X26C5; <br> H: 27° / L:15°
+</h3>
+
+<button class="button">
+    Change city
+</button>
+<br>
+
+<p class="details"> 
+    Coded by Dimpho Mokoena
+</p>
+
+</body>
+</html>
