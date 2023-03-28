@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currently 23 degrees in Cape Town </title>
+
     <style>
 
         .city-one{
@@ -72,38 +66,3 @@ h1:hover{
 }
 
     </style>
-</head>
-
-<body class="layout">
-    
-    <h1 class="heading">
-    Currently 23° inCape Town &#X26C5; <br> H: 23° L:11°
-
-    </h1>
-
-    <h3 class="city-two">
-        Wednesday &#x26c5; <br> H: 20° / L:14°
-    </h3>
-
-    <h3 class="city-three">
-        Thursday &#127774 <br> H: 23° / L:13°
-    </h3>
-<h3 class="city-four">
-    Friday &#127774 <br> H: 24° / L:14°
-</h3>
-
-<h3 class="city-five">
-    Saturday &#X26C5; <br> H: 27° / L:15°
-</h3>
-
-<button class="button">
-    Change city
-</button>
-<br>
-
-<p class="details"> 
-    Coded by Dimpho Mokoena
-</p>
-
-</body>
-</html>
